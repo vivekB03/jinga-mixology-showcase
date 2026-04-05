@@ -51,6 +51,7 @@ const ServicesSection = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: 0.2 + i * 0.1 }}
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
               className="glass group p-8 hover:border-gold/30 transition-all duration-500 cursor-pointer hover:glow-gold"
             >
               <div className="w-14 h-14 rounded-xl bg-gold/10 flex items-center justify-center mb-5 group-hover:bg-gold/20 transition-colors">
