@@ -43,7 +43,7 @@ const AcademySection = () => {
                 Learn mixology, flair techniques, and bar management at zero cost.
               </p>
               <a
-                href="https://wa.me/919999999999?text=Hi%2C%20I'm%20interested%20in%20the%20free%20bartending%20course"
+                href="https://wa.me/919619885451?text=Hi%2C%20I'm%20interested%20in%20the%20free%20bartending%20course"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-gold inline-flex items-center gap-2"

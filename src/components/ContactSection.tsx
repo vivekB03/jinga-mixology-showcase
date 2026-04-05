@@ -11,7 +11,7 @@ const ContactSection = () => {
     e.preventDefault();
     const text = `Hi Bhabuji! I'd like to book your services.\n\nName: ${form.name}\nEmail: ${form.email}\nPhone: ${form.phone}\nEvent: ${form.eventType}\nDate: ${form.date}\nDetails: ${form.message}`;
     window.open(
-      `https://wa.me/919999999999?text=${encodeURIComponent(text)}`,
+      `https://wa.me/919619885451?text=${encodeURIComponent(text)}`,
       "_blank"
     );
   };
@@ -104,7 +104,7 @@ const ContactSection = () => {
           >
             {[
               { icon: MapPin, title: "Location", text: "Mumbai, India — Available Nationwide" },
-              { icon: Phone, title: "Phone", text: "+91 99999 99999" },
+              { icon: Phone, title: "Phone", text: "+91 96198 85451" },,
               { icon: Mail, title: "Email", text: "hello@bhabujijinga.com" },
             ].map((item) => (
               <div key={item.title} className="glass p-6 flex items-start gap-4">
