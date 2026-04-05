@@ -63,7 +63,7 @@ const HeroSection = () => {
             Join Academy
           </a>
           <a
-            href="https://wa.me/919999999999"
+            href="https://wa.me/919619885451"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-outline-gold text-base flex items-center justify-center gap-2"

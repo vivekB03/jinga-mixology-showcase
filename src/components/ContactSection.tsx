@@ -104,7 +104,7 @@ const ContactSection = () => {
           >
             {[
               { icon: MapPin, title: "Location", text: "Mumbai, India — Available Nationwide" },
-              { icon: Phone, title: "Phone", text: "+91 99999 99999" },
+              { icon: Phone, title: "Phone", text: "+91 96198 85451" },,
               { icon: Mail, title: "Email", text: "hello@bhabujijinga.com" },
             ].map((item) => (
               <div key={item.title} className="glass p-6 flex items-start gap-4">
