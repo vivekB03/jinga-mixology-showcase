@@ -9,8 +9,10 @@ import realCertificate from "@/assets/real-certificate.jpg";
 import realConference from "@/assets/real-conference.jpg";
 import realMocktail from "@/assets/real-mocktail.jpg";
 import realStudents from "@/assets/real-students.jpg";
+import realFlairCocktail from "@/assets/real-flair-cocktail.jpg";
 
 const photos = [
+  { img: realFlairCocktail, name: "Flair Bartending", desc: "Fire cocktail presentation by Bhabuji" },
   { img: realMocktail, name: "Crafting Perfection", desc: "Signature mocktails at a live event" },
   { img: realEvent1, name: "Event Team", desc: "With the crew at a premium event" },
   { img: realAcademy3, name: "Academy in Action", desc: "Students crafting cocktails at the bar school" },
